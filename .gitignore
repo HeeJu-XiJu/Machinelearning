@@ -245,7 +245,13 @@ $RECYCLE.BIN/
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,python,jupyternotebooks
 
-human_activity/train/X_train.txt
-santander-customer-satisfaction/test.csv
-train_santander.csv
-creditcard.csv
+*.csv
+*.txt
+*.tsv
+*.xlsx
+
+human_activity/
+mercari-price-suggestion-challenge/
+OpinosisDataset1.0/
+santander-customer-satisfaction/
+tmdb-5000-movie-dataset
